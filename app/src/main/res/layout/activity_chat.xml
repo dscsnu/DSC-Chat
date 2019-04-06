@@ -22,13 +22,14 @@
             android:inputType="textCapSentences|textMultiLine"
             android:hint="Type a message"/>
 
+
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:padding="5dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:onClick="onSendClick"
+            android:onClick="function"
             android:src="@drawable/ic_round_send_24px"/>
     </LinearLayout>
 
